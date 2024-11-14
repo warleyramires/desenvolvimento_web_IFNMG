@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Inicio do Header*/
+header {
+  background-color: #000000e8;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px 0;
+}
+
+header .marca {
+  font-size: 24px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header nav ul li {
+  padding: 0 30px;
+}
+header nav ul li a {
+  font-size: 16px;
+  color: #fff;
+}
+/* Fim do header*/
+
+/* Inicio Section Banner*/
+section .imagem-banner {
+  background: url("./assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+/* Fim Sectin Banner*/
+
+.produtos-list {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px; 
+}
+
+section .produto-details {
+  
+width: 23%;
+  padding: 5px;
+  border: 1px solid #000000e8;
+  height: 780px;
+}
+
+section .produto1 {
+  background-image: url("./assets/modelo1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+section .produto2 {
+  background-image: url("./assets/modelo2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section .produto3 {
+  background-image: url("./assets/modelo3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section .produto4 {
+  background-image: url("./assets/modelo4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section .img-padrao {
+  height: 700px;
+  width: 100%;
+}
+
+section .produto-details .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+}
+
+section .produto-details .descricao h3{
+    margin-bottom: 7px;
+}
+
+footer {
+    background-color: #000000e8;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+

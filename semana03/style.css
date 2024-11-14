@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  max-width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .section-image {
+  width: 200px;
+}
+
+main section .logo {
+  background-image: url("./assets/logoifnmg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 180px;
+  border: 5px solid green;
+  border-radius: 12px;
+}
+
+main section {
+  padding-top: 20px;
+  max-width: 100%;
+  width: 1200px;
+  padding-inline: 10px;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding-block: 10px;
+}
+
+main section .info h1 {
+  font-size: 38px;
+}
+main section .info h1,
+p {
+  color: lawngreen;
+}
+
+main section .info h2 {
+  font-size: 28px;
+}
+
+.last-paragraph {
+  max-width: 100%;
+  width: 750px;
+}
+
+footer {
+  max-width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  margin: 0 auto;
+}
+
+footer .rodape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 200px;
+}
+
+footer .logo-empresa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer img {
+  width: 50px;
+}

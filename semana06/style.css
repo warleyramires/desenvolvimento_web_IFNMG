@@ -1,0 +1,422 @@
+@font-face {
+  font-family: "Minerva Modern Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Minerva Modern Bold"),
+    url("./assets/fonts/MinervaModernBold.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Minerva Modern Bold";
+  background-color: #3d4435;
+  color: #c2c8cc;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.width-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-inline: 10px;
+}
+
+header.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding-block: 50px;
+}
+
+header.header .title-navigator {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+header.header .social-medias {
+  flex-shrink: 0;
+}
+
+header.header .nav-buttons {
+  flex-shrink: 0;
+}
+
+header.header .social-medias a {
+  margin-right: 20px;
+  color: #c2c8cc;
+}
+
+header.header .title-navigator h1 {
+  text-transform: uppercase;
+  padding-block: 20px;
+}
+header.header .title-navigator nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header.header .nav-buttons button {
+  padding: 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header.header .nav-buttons .btn-workwithme {
+  background-color: #c2c8cc;
+  color: #3d4435;
+}
+
+main .container-banner {
+  padding-block: 70px;
+  text-align: center;
+}
+main .container-banner p {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+main .container-banner h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+main .image-banner {
+  width: 100%;
+  height: 700px;
+  background-image: url("./assets/img/fundo1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main .container-workwithme {
+  text-align: center;
+  padding-block: 90px;
+  border-bottom: 2px solid #c2c8cc;
+}
+
+main .container-workwithme h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+main .container-workwithme .box-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .container-workwithme .box-info .box {
+  max-width: 320px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .container-workwithme .box-info .box h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+main .container-workwithme .box-info .box a {
+  text-decoration: underline;
+}
+
+main .container-orientacao,
+main .container-coaching {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #c2c8cc;
+}
+
+main .container-orientacao .box-left h3,
+main .container-coaching .box-left h3,
+main .container-receitas .title h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  max-width: 140px;
+  margin-bottom: 40px;
+}
+
+main .container-orientacao .box-left .imagem-nutri {
+  background-image: url("./assets/img/image-asset.jpeg");
+  height: 300px;
+  width: 40vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main .container-orientacao .box-right,
+main .container-coaching .box-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+main .container-orientacao .box-right h2,
+main .container-coaching .box-right h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+main .container-orientacao .box-right .box-two-columns {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  gap: 5vw;
+}
+
+main .container-orientacao .box-right .box-two-columns a {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+main .container-orientacao .box-right .box-two-columns .left {
+  width: 200px;
+}
+main .container-orientacao .box-right .box-two-columns .left h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+main .container-orientacao .box-right .box-two-columns .left p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+main .container-orientacao .box-right .box-two-columns .right {
+  width: 200px;
+}
+main .container-orientacao .box-right .box-two-columns .right h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+main .container-orientacao .box-right .box-two-columns .right p,
+main .container-coaching .box-right p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+main .container-coaching .box-left .imagem-nutri {
+  background-image: url("./assets/img/image-asset2.jpeg");
+  height: 300px;
+  width: 230px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .container-coaching .box-right {
+  gap: 50px;
+  align-items: start;
+}
+
+main .container-coaching button {
+  padding-block: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  width: 230px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #c2c8cc;
+  color: #3d4435;
+}
+
+main .container-receitas .title {
+  margin-top: 30px;
+}
+
+main .container-receitas {
+  padding-bottom: 150px;
+}
+
+main .container-receitas .imagens-receitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .container-receitas .imagens-receitas .box-image {
+  width: 260px;
+}
+
+main .container-receitas .imagens-receitas .box-image img {
+  max-width: 260px;
+  max-height: 390px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+main .container-receitas .imagens-receitas .box-image p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #c2c8cc;
+  justify-content: space-evenly;
+}
+
+footer h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: #c2c8cc;
+  color: #000;
+}
+
+footer .contato{
+    background-color: #c2c8cc;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer .contato .input-email {
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 20px 40px;
+    color: #3d4435;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer .contato button{
+    background-color: #000;
+    outline: none;
+    border: none;
+    padding: 16px 20px;
+    color: #c2c8cc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (min-width: 769px) {
+    main .container-orientacao .box-left .imagem-nutri,
+    main .container-coaching .box-left .imagem-nutri {
+      width: 300px; 
+      height: 410px; 
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  
+@media (max-width: 768px) {
+    header.header {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding-block: 20px;
+    }
+  
+    header.header .title-navigator {
+      position: static;
+      transform: none;
+    }
+  
+    header.header .title-navigator nav ul {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    main .container-workwithme .box-info {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    main .container-orientacao,
+    main .container-coaching {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    main .container-orientacao .box-right,
+    main .container-coaching .box-right {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    main .container-orientacao .box-right .box-two-columns,
+    main .container-coaching .box-right .box-two-columns {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    footer .contato {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    main .container-receitas .imagens-receitas {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    footer {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header.header .nav-buttons button {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    main .container-workwithme h2,
+    main .container-orientacao .box-right h2,
+    main .container-coaching .box-right h2 {
+      font-size: 24px;
+    }
+  
+    main .container-orientacao .box-left .imagem-nutri,
+    main .container-coaching .box-left .imagem-nutri {
+      width: 100%;
+      height: auto;
+    }
+  
+    main .container-banner h2 {
+      font-size: 28px;
+    }
+  
+    main .container-receitas .imagens-receitas .box-image {
+      width: 100%;
+    }
+  }
+  

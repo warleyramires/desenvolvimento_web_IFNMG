@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.meu-formulario{
+    margin: 20px auto;
+    width: 500px;
+    position: relative;
+}
+
+.buttons{
+    position: absolute;
+    right: 0;
+}

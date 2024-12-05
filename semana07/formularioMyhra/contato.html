@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | Bem-Estar Com Myhra</title>
+
+    <link rel="stylesheet" href="contato-style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header width-page">
+      <div class="social-medias">
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+
+      <div class="title-navigator">
+        <h1>Bem-Estar Com Myhra</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Coaching</a></li>
+            <li><a href="#">Receitas</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="nav-buttons">
+        <button class="btn-entrar">Entrar</button>
+        <button class="btn-workwithme">Trabalhe comigo</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="container width-page">
+        <div class="box-left">
+          <h2>Fale comigo</h2>
+
+          <p>
+            Para perguntas relativas a eventos ou imprensa, fale conosco aqui.
+            Se estiver interessado em coaching particular,<a href="#"> agende agora uma
+            consulta gratuita.</a>
+          </p>
+        </div>
+
+        <div class="form box-right">
+            <form id="meu-formulario">
+                <div class="nome-sobrenome">
+                    <div class="nome">
+                        <label for="nome">Nome</label>
+                        <input type="text" required id="nome">
+                    </div>
+        
+                    <div class="sobrenome">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" required id="sobrenome">
+                    </div>
+                </div>
+        
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" required id="email">
+                </div>
+        
+                <div class="assunto">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" required id="assunto">
+                </div>
+        
+                <div class="mensagem">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" required></textarea>
+                </div>
+        
+                <div class="checkbox-sobre">
+                    <div>
+                        <input type="checkbox" id="servicos" name="sobre" value="servicos">
+                        <label for="servicos">Serviços</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="eventos-corporativos" name="sobre" value="eventos-corporativos">
+                        <label for="eventos-corporativos">Eventos Corporativos</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="evento-grupo" name="sobre" value="evento-grupo">
+                        <label for="evento-grupo">Evento em Grupo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="imprensa" name="sobre" value="imprensa">
+                        <label for="imprensa">Imprensa</label>
+                    </div>
+                </div>
+                
+                
+                <button class="btn">Enviar</button>
+                
+            </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h2>Não perca nenhuma receita.</h2>
+
+      <div class="contato">
+        <input
+          type="text"
+          class="input-email"
+          placeholder="Endereço de e-mail"
+        />
+        <button>Cadastre-se</button>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
